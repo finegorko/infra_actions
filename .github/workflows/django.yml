@@ -24,3 +24,4 @@ jobs:
     - name: Run Tests
       run: |
         python -m flake8 
+        python infra_project/manage.py test
